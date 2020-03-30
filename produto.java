@@ -49,11 +49,11 @@ public class produto {
   
   public void margemLucro() {
 	  if(precoVenda < precoCusto) {
-		 System.out.println("O produto n�o tera margem de lucro"); 
+		 System.out.println("O produto não tera margem de lucro"); 
 	  }
 	  else {
 		  margemLucro = precoVenda - precoCusto;
-		  System.out.println("a margem de lucro sera: R$"+getmargemLucro()+" e o percentual sera de "+getmargemLucroP()+" %");
+		  System.out.println("A margem de lucro será de: R$"+getmargemLucro()+" e o percentual será de "+getmargemLucroP()+" %");
 	  }
   }
   
